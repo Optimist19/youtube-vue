@@ -1,0 +1,24 @@
+body{
+	margin: 0;
+	padding: 0;
+	padding-top: 110px;
+	padding-bottom: 1vh;
+	padding-left: 100px;
+	padding-right: 20px;
+	background-color:rgb(247, 255, 255);
+	animation: fade;
+	animation-duration: 3s;
+
+}
+
+@keyframes fade{
+	from{opacity: 0;};
+	to{opacity: 1;};
+}
+
+@media  only screen and (max-width: 375px){
+	body{
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+}
